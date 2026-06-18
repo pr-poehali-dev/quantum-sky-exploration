@@ -37,29 +37,18 @@ export default function Contacts() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="flex flex-col gap-6">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <a
-                href="tel:+79789403236"
-                className="group flex flex-col gap-3 border border-neutral-200 p-6 hover:border-black transition-colors duration-300"
-              >
-                <Icon name="Phone" size={24} className="text-neutral-400 group-hover:text-black transition-colors duration-300" />
-                <span className="uppercase text-xs tracking-wide text-neutral-400">Телефон</span>
-                <span className="text-sm font-medium text-neutral-900">+7 (978) 940-32-36</span>
+            <div className="flex flex-col gap-3">
+              <a href="tel:+79789403236" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-colors duration-300">
+                <Icon name="Phone" size={16} className="text-neutral-400 shrink-0" />
+                <span className="text-sm font-medium">+7 (978) 940-32-36</span>
               </a>
-
-              <a
-                href="mailto:nik.belomyytsev@mail.ru"
-                className="group flex flex-col gap-3 border border-neutral-200 p-6 hover:border-black transition-colors duration-300"
-              >
-                <Icon name="Mail" size={24} className="text-neutral-400 group-hover:text-black transition-colors duration-300" />
-                <span className="uppercase text-xs tracking-wide text-neutral-400">Email</span>
-                <span className="text-sm font-medium text-neutral-900 break-all">nik.belomyytsev@mail.ru</span>
+              <a href="mailto:nik.belomyytsev@mail.ru" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-colors duration-300">
+                <Icon name="Mail" size={16} className="text-neutral-400 shrink-0" />
+                <span className="text-sm font-medium">nik.belomyytsev@mail.ru</span>
               </a>
-
-              <div className="flex flex-col gap-3 border border-neutral-200 p-6">
-                <Icon name="MapPin" size={24} className="text-neutral-400" />
-                <span className="uppercase text-xs tracking-wide text-neutral-400">Адрес</span>
-                <span className="text-sm font-medium text-neutral-900">г. Симферополь</span>
+              <div className="flex items-center gap-3 text-neutral-700">
+                <Icon name="MapPin" size={16} className="text-neutral-400 shrink-0" />
+                <span className="text-sm font-medium">г. Симферополь</span>
               </div>
             </div>
           </div>
