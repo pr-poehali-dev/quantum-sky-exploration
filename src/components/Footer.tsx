@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-end gap-4 sm:gap-0">
               <p className="text-neutral-500 text-xs sm:text-sm">
-                {new Date().getFullYear()} Пассажирские перевозки · г. Симферополь
+                {new Date().getFullYear()} ИП «Беломыйцев Н.А.» · г. Симферополь
               </p>
               <a
                 href="/privacy"
