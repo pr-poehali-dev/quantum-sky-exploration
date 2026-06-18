@@ -1,10 +1,25 @@
 export default function Featured() {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0 bg-white">
-      <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
+      <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2 grid grid-cols-2 gap-1">
         <img
-          src="https://cdn.poehali.dev/projects/c7bdc2d5-ec99-41e1-b97c-b45445c49778/files/6ce730ec-a473-4423-9eff-c7a9e7c0d1d5.jpg"
-          alt="Маршрутка на закате в Крыму"
+          src="https://cdn.poehali.dev/projects/c7bdc2d5-ec99-41e1-b97c-b45445c49778/files/aa576cac-1094-4ddd-b05a-27079fb28fef.jpg"
+          alt="Ретро Volkswagen T1"
+          className="w-full h-full object-cover"
+        />
+        <img
+          src="https://cdn.poehali.dev/projects/c7bdc2d5-ec99-41e1-b97c-b45445c49778/files/15812f69-e18a-4d56-87ac-256bc10a6c15.jpg"
+          alt="Посадка пассажиров"
+          className="w-full h-full object-cover"
+        />
+        <img
+          src="https://cdn.poehali.dev/projects/c7bdc2d5-ec99-41e1-b97c-b45445c49778/files/e5240525-1d46-43e1-a2db-0ebae22a8e13.jpg"
+          alt="Салон маршрутки"
+          className="w-full h-full object-cover"
+        />
+        <img
+          src="https://cdn.poehali.dev/projects/c7bdc2d5-ec99-41e1-b97c-b45445c49778/files/d7436ceb-f1e5-49f2-a336-8d3dc179d7f9.jpg"
+          alt="Маршрутка на горной дороге"
           className="w-full h-full object-cover"
         />
       </div>

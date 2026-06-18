@@ -33,11 +33,16 @@ export default function Footer() {
                 <span className="text-white text-sm sm:text-base">Гибкий подход</span>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[14vw] sm:text-[12vw] lg:text-[10vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                ТРАНС-ЛОГИСТИК
-              </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Транс-Логистик</p>
+            <div className="flex flex-col sm:flex-row justify-between items-end gap-4 sm:gap-0">
+              <p className="text-neutral-500 text-xs sm:text-sm">
+                {new Date().getFullYear()} Пассажирские перевозки · г. Симферополь
+              </p>
+              <a
+                href="/privacy"
+                className="text-neutral-500 hover:text-white transition-colors duration-300 text-xs sm:text-sm underline underline-offset-4"
+              >
+                Политика конфиденциальности
+              </a>
             </div>
           </div>
         </div>
